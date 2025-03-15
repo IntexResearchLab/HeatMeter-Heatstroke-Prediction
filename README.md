@@ -1,12 +1,14 @@
-# HeatMeter - Heatstroke Prediction - Testcase: BD 🇷🇫
+# HeatMeter - Heatstroke Prediction 🇧🇩
 
 ### A context-aware mobile solution for heatstroke prevention using machine learning and the WBGT index.
 
 This repository accompanies the study:
 
-"A Context-Aware Mobile Solution for Heatstroke Prediction Using WBGT Index and Machine Learning"
-Md Saidur Rahman Kohinoor, Fahad Ahmed Ruhan, Md Istiaque Khalique, Tajwar Elahi Choudhury, Md Mahfuzur Rahman, Mohammad Shorfuzzaman
-📜 DOI: (we will add when available)
+**"A Context-Aware Mobile Solution for Heatstroke Prediction Using WBGT Index and Machine Learning"**  
+*Md Saidur Rahman Kohinoor, Fahad Ahmed Ruhan, Md Istiaque Khalique, Tajwar Elahi Choudhury, Md Mahfuzur Rahman, Mohammad Shorfuzzaman*  
+📜 DOI: *(To be updated when available)*
+
+---
 
 
 ## 📁 Repository Structure
@@ -31,36 +33,32 @@ Heatstroke-Prediction-BD/
 └── README.md
 
 
+---
+
+
 ## 📊 Dataset
 
-### 📂 Dataset access is provided in the Data/ folder.
+### 📂 Dataset access is provided in the [`Data/`](./Data) folder.
 
-Source: NASA POWER and OpenWeatherMap APIs
+- **Source**: NASA POWER and OpenWeatherMap APIs  
+- **Region**: 8 divisions of Bangladesh  
+- **Period**: January 2013 – September 2022  
+- **Frequency**: Hourly  
+- **Features**: Temperature, relative humidity, wind speed, and more  
+- **Target**: Wet Bulb Globe Temperature (WBGT)
 
-Region: 8 divisions of Bangladesh
-
-Period: January 2013 – September 2022
-
-Frequency: Hourly
-
-Features: Temperature, relative humidity, wind speed, and more
-
-Target: Wet Bulb Globe Temperature (WBGT)
+---
 
 
 ### 🧠 Machine Learning Models
 
-Training scripts are located in Models/.
+Training scripts are located in the [`Models/`](./Models) folder.
 
 Available models:
-
-├── Linear Regression
-
-├── K-Nearest Neighbors (KNN)
-
-├── Decision Tree
-
-├── Random Forest
+- Linear Regression
+- K-Nearest Neighbors (KNN)
+- Decision Tree
+- Random Forest
 
 
 
